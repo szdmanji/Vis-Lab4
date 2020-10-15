@@ -23,8 +23,6 @@ d3.csv('wealth-health-2014.csv', d3.autoType).then(data=> {
 
     const xAxis = d3.axisBottom(xScale)
         .ticks(5,'s');
-    
-    const 
 
     svg.append('g')
         .call(xAxis)
